@@ -8,12 +8,14 @@
 .formes textarea{border-radius: 10px;}
 .Hadings{font-size: 3rem;background-color: rgb(20, 20, 20);color: aliceblue;text-align: center;} 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1100px) {
     .mains{background-color: black;color: aliceblue; display: grid; grid-template-columns: 100%;
         padding: 1rem;justify-content: space-between;align-items: center;}
     .rs img{display: none;}
     .mains{background-image: url('C:\Users\Bilal\OneDrive\Desktop\react\Suchi_restorend\suchi\src\assets\1.jpg');
-backdrop-filter: cover;
+
+background-size: cover;
+
     
     }
     .Hadings{font-size: 2rem;background-color: rgb(20, 20, 20);color: aliceblue;text-align: center;} 
