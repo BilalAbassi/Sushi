@@ -18,9 +18,13 @@ background:'red';gap: 1rem;align-items: center; padding: 8rem;}
 
 @media screen and (max-width:500px) {
     .map{display: grid;grid-template-columns:100%;padding-top: 0%; padding-bottom: 0%;}
-    .images{max-width: 10rem; max-height:6rem; padding-left: 0%;}
-    .map div{width:400px;}
+    .images{max-width: 8rem; max-height:8rem; padding-left: 0%;}
+    .map div{width:1000px;overflow-x: scroll;}
 
 
-
+}
+@media screen and (max-width:350px) {
+    .map{display: grid;grid-template-columns:100%;padding-top: 0%; padding-bottom: 0%;}
+    .images{max-width: 10rem; max-height:5rem; padding-left: 0%;}
+    .map div{width:500px; overflow-x: scroll;}
 }
