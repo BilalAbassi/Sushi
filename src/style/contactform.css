@@ -1,0 +1,24 @@
+.mains{background-color: rgb(20, 20, 20);color: aliceblue; display: grid; grid-template-columns:40% 60%;padding: 2rem;justify-content: space-between;align-items: center;}
+.ls{ justify-content: center;align-items: center;text-align: center;}
+.ls .formes{position: relative;display: grid;grid-template-columns:0.5fr; justify-content: center;}
+.ls .formes label{padding:1rem;}
+.formes input{padding: 1rem; border-radius: 2rem;}
+
+.rs img{border-radius: 6% 50% 50% 6%; align-self: center;}
+.formes textarea{border-radius: 10px;}
+.Hadings{font-size: 3rem;background-color: rgb(20, 20, 20);color: aliceblue;text-align: center;} 
+
+@media screen and (max-width:1200px) {
+    .mains{background-color: black;color: aliceblue; display: grid; grid-template-columns: 100%;
+        padding: 1rem;justify-content: space-between;align-items: center;}
+    .rs img{display: none;}
+    .mains{background-image: url('C:\Users\Bilal\OneDrive\Desktop\react\Suchi_restorend\suchi\src\assets\1.jpg');
+backdrop-filter: cover;
+    
+    }
+    .Hadings{font-size: 2rem;background-color: rgb(20, 20, 20);color: aliceblue;text-align: center;} 
+    
+
+    
+}
+

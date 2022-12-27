@@ -1,0 +1,7 @@
+.maines{display:grid;grid-template-columns:80%; justify-content: center;color: aliceblue;align-items: center;text-align: center;
+
+background-color: black;color: aliceblue;} 
+.image{background-size: cover;height: 80vh; margin-top: 2rem;}
+
+.contant p{color:ivory;padding: 2rem;}
+h1{padding-top: 0%;padding-bottom:3rem;}

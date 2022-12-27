@@ -1,0 +1,31 @@
+.home{
+    text-align: center;
+    object-fit: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    
+
+}
+
+.home-top{
+
+    backdrop-filter: saturate(180%) blur(2px);
+
+}
+
+.home p{ color:whitesmoke; padding: 2rem  1rem;
+font-size: 2rem;
+backdrop-filter: saturate(180%) blur(2px);
+
+}
+.home h1{ padding: 3rem 3rem; color:whitesmoke; font-size: 3rem;padding-bottom: 1rem;}
+.home button{border: none;background-color:black;padding: 1rem;border-radius: 2rem;}
+.btn{ text-decoration: none; padding:1rem;color: aliceblue;}
+
+@media screen and (max-width:600px) {
+    .home p {padding:1rem; font-size: 1rem;}
+    .btn{padding:3px;}
+    .home h1{font-size: 1.5rem;}
+    
+}

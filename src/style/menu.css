@@ -1,0 +1,26 @@
+.main{text-align: center; position:static;}
+.map{justify-content: center; display:grid;grid-template-columns:repeat(3,0.5fr);
+background:'red';gap: 1rem;align-items: center; padding: 8rem;}
+.images{max-width: 20rem;max-height: 12rem;padding: 1rem; justify-self: center;}
+.main h1{padding: 2rem; color: aliceblue;}
+.main p{padding: 2rem;color: aliceblue; max-width: 90%;align-self: center;}
+.map div{justify-items: center; color: aliceblue; padding: 2px; background-color:black; font-size: 1rem; border-radius: 1rem;}
+.LINK{ text-decoration: none; color: aqua;}
+.map button{background-color:rgb(32, 28, 28); padding: 4px; background: none; border: none; font-size: 1rem;}
+.price{background-color: red;}
+
+@media screen and (max-width:1000px) {
+    .map{display: grid;grid-template-columns:100%;padding-top: 0%; padding-bottom: 0%;}
+    .images{max-width: 20rem; max-height:10rem; padding-left: 0%;}
+    .map div{max-width: 100%; font-size: large;}
+    
+}
+
+@media screen and (max-width:500px) {
+    .map{display: grid;grid-template-columns:100%;padding-top: 0%; padding-bottom: 0%;}
+    .images{max-width: 10rem; max-height:6rem; padding-left: 0%;}
+    .map div{width:400px;}
+
+
+
+}

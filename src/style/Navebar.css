@@ -1,0 +1,30 @@
+.head{display: flex; background-color:rgb(97, 93, 93);align-items: center;justify-content: space-between;position: static; min-height: 20%;}
+.logo img {width:  5rem; border-radius:  4rem; overflow: hidden; margin-top: 4px; border-radius: 1% 50% 50% 1%;margin-left: 1rem;}
+
+.e{ text-decoration: none; padding: 0.5rem; margin: 0 1rem; color: rgb(230, 216, 216);
+font-size: 1.3rem;
+
+
+}
+.e:active{background-color: red;}
+.icons{font-size: 2rem; width: 20%; visibility: hidden; padding: 0 2rem;}
+.link{margin-left: 2rem;}
+.icon-div{visibility: hidden;}
+
+@media screen and (max-width:600px) {
+  .icon-div{visibility: visible;}
+  .king .link{display: grid;grid-template-columns: 3fr;}
+  .hide { visibility: hidden; display: none;}
+.e{
+    margin-top: 1rem;
+    transition: 0.7s;
+    padding: 2rem;
+  }
+  .king{display: flex; background-color:rgb(97, 93, 93);align-items: center;
+    justify-content: space-between;position: static; min-height: 20%; }
+.king .logo img{bottom: 30rem;position: absolute;left: 1rem; transition:0.5s;}
+.king .icon-div .k{bottom: 30rem;position: absolute;right: 1rem; transition:0.5s;}
+
+
+  
+}
