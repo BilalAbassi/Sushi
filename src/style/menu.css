@@ -10,15 +10,22 @@ background:'red';gap: 1rem;align-items: center; padding: 8rem;}
 .price{background-color: red;}
 
 @media screen and (max-width:1000px) {
-    .map{display: grid;grid-template-columns:100%;padding-top: 0%; padding-bottom: 0%;}
-    .images{max-width: 20rem; max-height:10rem; padding-left: 0%;}
+    .map{display: grid;grid-template-columns:1fr;padding-top: 0%; padding-bottom: 0%;}
+    .images{max-width: 20rem; max-height:15rem; padding-left: 0%;}
     .map div{max-width: 100%; font-size: large;}
     
 }
 
 @media screen and (max-width:500px) {
-    .map{display: grid;grid-template-columns:100%;padding-top: 0%; padding-bottom: 0%;}
-    .images{max-width: 10rem; max-height:6rem; padding-left: 0%;}
+    .map{display: grid;grid-template-columns:1fr;padding-top: 0%; padding-bottom: 0%;}
+    .images{max-width: 15rem; padding-left: 0%; margin-left: 1rem;}
+    .map div{font-size: medium;width: 100%;padding: 0%;}
+    
+}
+
+@media screen and (max-width:300px) {
+    .map{display: grid;grid-template-columns:1fr;padding-top: 0%; padding-bottom: 0%;}
+    .images{max-width: 10rem; padding-left: 0%;}
     .map div{font-size: medium;width: 100%;padding: 0%;}
     
 }
